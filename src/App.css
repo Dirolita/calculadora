@@ -21,7 +21,7 @@
   justify-content: center;
 }
 .boton-contenedor{
-  height: 83px;
+  height: 60px;
   flex: 1 1;
   display: flex;
   justify-content: center;
@@ -41,4 +41,30 @@ color: white;
 }
 .operador:hover{
   background-color: #660459;
+}
+.input{
+  height: 65px;
+  border-radius: 50px;
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  font-weight: bold;
+  font-size: 30px;
+  background-color: #0a0a23;
+  color: white;
+  padding: 11px 30px 11px 11px;
+  margin: 1px solid #888;
+  box-shadow:  -1px 4px 1px 1px white;
+}
+.btn-clear{
+  display: flex;
+  flex: 1;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.6rem;
+}
+.btn-clear:hover{
+  background-color: #143b02;
+  color: white;
 }
